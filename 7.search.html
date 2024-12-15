@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Metas-->
+	<meta charset="utf-8">
+	<meta name="description" content="Website Description Come's Here">
+	<meta name="title" content="Title gose here">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Title-->
+	<title>
+		MVO | Search
+	</title>
+
+	<!--Favicon Icon-->
+	<link rel="Shortcut icon" type="images/png" href="images/favicon.png">
+
+
+	<!--StyleSheets-->
+	<!--Normalizer-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+	<!--Reset-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- flatpickr -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<!--Main Css's-->
+	<link rel="stylesheet" type="text/css" media="all" href="style.css">
+	<!--Responsive Css-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+
+</head>
+
+<body>
+	<!--[if IE]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!--========================================================
+					Start User Layout Area 
+	=========================================================-->
+	
+  <!-- SIDEBAR -->
+  <sidebar class="sidebar-area">
+    <div class="sidebar-top">
+      <img src="images/logo.svg" alt="" />
+      <ul>
+        <li title="Dashboard">
+          <a href="3.dashboard.html"><img src="images/home.svg" alt="" /></a>
+        </li>
+        <li title="Search">
+          <a href="7.search.html" class="active"><img src="images/search.svg" alt="" /></a>
+        </li>
+        <li title="Results">
+          <a href="results.html"><img src="images/results.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar-bottom">
+      <ul>
+        <li title="Logout">
+          <a href="login.html"> <img src="images/logout.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </sidebar>
+
+  <!-- HEADER -->
+  <header class="result-page-header">
+    <div class="result-page-header-left">
+      <b>Search Panel</b>
+    </div>
+    <div class="header-right">
+      <div class="notification-point">
+        <button class="dropMenuBtn">
+          <img src="images/gf/notification.svg" alt="">
+        </button>
+        <div class="notification-bar toggleDiv" style="display: none;">
+          <ul>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+          </ul>
+          <div class="view-all-notification">
+            <a href="#">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="profile-menu-wrapper">
+        <a href="#" class="profile-btn">
+          <div>
+            <img src="images/gf/1.png" alt="">
+          </div>
+          <div class="profile-details">
+            <b>Yeasin Arafat</b>
+            <span>Developer</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+	<section class="dashboard-area">
+		<div class="dashboard content">
+			<div class="dashboard-main-content-area search-page-wrapper">
+				<div class="search-page-content">
+					<h2>Search Sample</h2>
+					<p>Please select a brand, country, and date range to find your print, digital and social coverage.
+					</p>
+					<div class="custom-search-wrapper">
+						<div class="search-fileds">
+							<div class="custom-select brand-select">
+								<div class="select-box">
+									<b>Brand</b>
+									<p>Choose a brand</p>
+								</div>
+								<div class="options-container">
+									<div class="option-wrapper">
+										<div class="option-img">
+											<img src="images/gf/worldwide.png" alt="">
+										</div>
+										<div class="option">All</div>
+									</div>
+									<div class="option-wrapper">
+										<div class="option-img">
+											<img src="images/gf/brand/Geox-Logo.svg" alt="">
+										</div>
+										<div class="option">Geox</div>
+									</div>
+									<div class="option-wrapper">
+										<div class="option-img">
+											<img src="images/gf/brand/wittchen.svg" alt="">
+										</div>
+										<div class="option">Wittchen</div>
+									</div>
+									<div class="option-wrapper">
+										<div class="option-img">
+											<img src="images/gf/brand/zoe.png" alt="">
+										</div>
+										<div class="option">Zoe</div>
+									</div>
+								</div>
+							</div>
+							<div class="custom-select">
+								<div class="select-box">
+									<b>Status</b>
+									<p>Choose a Status</p>
+								</div>
+								<div class="options-container">
+									<div class="option-wrapper">
+										<div class="option">Completed</div>
+									</div>
+									<div class="option-wrapper">
+										<div class="option">Working</div>
+									</div>
+									<div class="option-wrapper">
+										<div class="option">Late</div>
+									</div>
+								</div>
+							</div>
+							<div class="custom-select date-select">
+								<div class="select-box">
+									<b>Date Range</b>
+									<p>Choose a date</p>
+								</div>
+								<div class="options-container">
+									<div class="date-select-tab">
+										<ul class="nav nav-tabs" id="myTab" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+													data-bs-target="#home" type="button" role="tab" aria-controls="home"
+													aria-selected="true">Months</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+													data-bs-target="#profile" type="button" role="tab"
+													aria-controls="profile" aria-selected="false">Dates</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+													data-bs-target="#contact" type="button" role="tab"
+													aria-controls="contact" aria-selected="false">Time Period</button>
+											</li>
+										</ul>
+										<div class="tab-content date-select-tab-content" id="myTabContent">
+											<!-- SINGLE TAB  -->
+											<div class="tab-pane fade show active" id="home" role="tabpanel"
+												aria-labelledby="home-tab">
+												<div class="text-center">
+													<h3 class="title-h3">What month(s) would you like to see?</h3>
+												</div>
+
+												<div class="calender-carousel-wrapper">
+													<div class="owl-carousel calender-carousel">
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>February</b>
+															<span>2024</span>
+														</div>
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>March</b>
+															<span>2024</span>
+														</div>
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>April</b>
+															<span>2024</span>
+														</div>
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>May</b>
+															<span>2024</span>
+														</div>
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>June</b>
+															<span>2024</span>
+														</div>
+														<div class="item">
+															<img src="images/calender.svg" alt="">
+															<b>July</b>
+															<span>2024</span>
+														</div>
+													</div>
+													<!-- Custom Arrows -->
+													<div class="custom-nav">
+														<button class="owl-prev-custom"><img src="images/arrow-left.svg"
+																alt=""></button>
+														<button class="owl-next-custom">
+															<img src="images/arrow-right.svg" alt="">
+														</button>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="tab-pane fade" id="profile" role="tabpanel"
+											aria-labelledby="profile-tab">
+											<div class="text-center">
+												<h3 class="title-h3">What dates would you like to see?</h3>
+											</div>
+											<div class="update-calendar">
+												<div class="calendar-container">
+													<button id="prev" class="nav-button" disabled>&#8249;</button>
+													<div id="calendar"></div>
+													<button id="next" class="nav-button">&#8250;</button>
+												</div>
+
+												<div class="selected-dates">
+													<p>From Date: <span id="fromDate"></span></p>
+													<p>To Date: <span id="toDate"></span></p>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="contact" role="tabpanel"
+											aria-labelledby="contact-tab">
+											<div class="text-center">
+												<h3 class="title-h3">What time period would you like to see?</h3>
+											</div>
+											<div class="list-of-time-periods">
+												<ul>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 72 hours</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 7 days</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 30 days</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 60 days</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 90 days</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 6 months</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Year to Date</b>
+													</li>
+													<li>
+														<img src="images/time.svg" alt="">
+														<b>Last 12 months</b>
+													</li>
+												</ul>
+											</div>
+											<div class="time-from-to text-center">
+											  <p><span>Mon, 12 Aug</span> to <span>Mon, 5 Aug</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="single-search-field no-side-border text-right">
+							<div class="search-btn">
+								<button><img src="images/search-btn-img.svg" alt=""></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!--========================================================
+					End User Layout Area 
+	=========================================================-->
+
+	<!--Normalizer-->
+	<script type="text/javascript" src="js/vendor/modernizr-3.7.1.min.js"></script>
+	<!--JQuery-->
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<!--Plugins-->
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+	<!--ALL RELATED PLUGINS-->
+	<!--Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+	</script>
+	<!--Main Js-->
+	<script type="text/javascript" src="js/search-page-script.js"></script>
+	<script type="text/javascript" src="js/custom-calendar.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8" />
+  <meta name="description" content="Website Description Come's Here" />
+  <meta name="title" content="Title gose here" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--Title-->
+  <title>MVO | Instagram Posts</title>
+
+  <!--Favicon Icon-->
+  <link rel="Shortcut icon" type="images/png" href="images/favicon.png" />
+
+  <!--StyleSheets-->
+  <!--Normalizer-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css" />
+  <!--Reset-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- flatpickr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <!--Main Css's-->
+  <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+  <!--Responsive Css-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/responsive.css" />
+</head>
+
+<body class="bg-gray">
+  <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+  <!--========================================================
+					Start User Layout Area 
+	=========================================================-->
+  <!-- COPY MESSAGE -->
+  <div class="for-copy-message-wrap copy-message">
+    <p class="message">
+      <img src="images/check.svg" alt="" /><span class="copy-status"></span>
+    </p>
+  </div>
+  <div class="for-copy-message-wrap download-message">
+    <p class="message">
+      <img src="images/icn/7.svg" alt="" /><span class="download-status">Downloading coverage image to device</span>
+    </p>
+  </div>
+
+  
+  <!-- SIDEBAR -->
+  <sidebar class="sidebar-area">
+    <div class="sidebar-top">
+      <img src="images/logo.svg" alt="" />
+      <ul>
+        <li title="Dashboard">
+          <a href="3.dashboard.html" class="active"><img src="images/home.svg" alt="" /></a>
+        </li>
+        <li title="Search">
+          <a href="7.search.html"><img src="images/search.svg" alt="" /></a>
+        </li>
+        <li title="Results">
+          <a href="results.html"><img src="images/results.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar-bottom">
+      <ul>
+        <li title="Logout">
+          <a href="login.html"> <img src="images/logout.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </sidebar>
+
+  <!-- HEADER -->
+  <header class="result-page-header">
+    <div class="result-page-header-left">
+      <b>Dashboard</b>
+    </div>
+    <div class="header-right">
+      <div class="notification-point">
+        <button class="dropMenuBtn">
+          <img src="images/gf/notification.svg" alt="">
+        </button>
+        <div class="notification-bar toggleDiv" style="display: none;">
+          <ul>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Order Created - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's</p>
+              </a>
+            </li>
+          </ul>
+          <div class="view-all-notification">
+            <a href="#">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="profile-menu-wrapper">
+        <a href="#" class="profile-btn">
+          <div>
+            <img src="images/gf/1.png" alt="">
+          </div>
+          <div class="profile-details">
+            <b>Yeasin Arafat</b>
+            <span>Developer</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <section class="dashboard-area">
+    <div class="dashboard content">
+      <div class="dashboard-main-content-area result-page-wrap">
+        <div class="page-table-content-wrapper mt-0">
+          <div class="gf-title-wrap result-page-controller-btns">
+            <h4><img src="images/icn/9.svg" alt="" />All User's</h4>
+            <ul class="controller-right-btns">
+              <li>
+                <button class="share-book-btn">
+                  <img src="images/share-book.svg" alt="" />Add User
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="search-bar">
+            <form action="">
+              <img src="images/icn/2.svg" alt="" />
+              <input type="search" name="" placeholder="Search for user..." id="" />
+            </form>
+          </div>
+          <div class="wrap-user"></div>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                All User<span>30</span>
+              </button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                Merchandiser<span>18</span>
+              </button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                Officer<span>18</span>
+              </button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                Assistant Officer<span>18</span>
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="table-wrapper table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>IMG</th>
+                      <th>Name</th>
+                      <th>Depertment</th>
+                      <th>Designation</th>
+                      <th>GF ID No.</th>
+                      <th>Email</th>
+                      <th>Phone</th>
+                      <th width="65px"></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img src="images/gf/1.png" alt="" class="profile-img"></td>
+                      <td>Yeasin Arafat</td>
+                      <td>IT </td>
+                      <td>Developer</td>
+                      <td>27560</td>
+                      <td>yeasin108arafat@gmail.com</td>
+                      <td>01636439612</td>
+                      <td>
+                        <a href="view_coverage.html" class="mention-btn tooltip-task"
+                          hoverover="View Profile"><img src="images/mention.svg" alt="" /></a>
+                      </td>
+                      <td class="action-td">
+                        <button class="action-btn-handeler">...</button>
+                        <div class="more-action-btns hidden">
+                          <ul>
+                            <li>
+                              <input type="text" class="copyText" value="Link Here"
+                                data-message="Copied coverage link to clipboard" />
+                              <button class="copyButton">
+                                <img src="images/copy-btn.svg" alt="" />Edit Info
+                              </button>
+                            </li>
+                            <li>
+                              <button class="downloadButton">
+                                <img src="images/download-btn.svg" alt="" />Delete User
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/gf/2.png" alt="" class="profile-img"></td>
+                      <td>Abu Ansary Tuhin</td>
+                      <td>IT </td>
+                      <td>Graphic Designer</td>
+                      <td>27560</td>
+                      <td>tuhin@gmail.com</td>
+                      <td>01724589314</td>
+                      <td>
+                        <a href="view_coverage.html" class="mention-btn tooltip-task"
+                          hoverover="View Profile"><img src="images/mention.svg" alt="" /></a>
+                      </td>
+                      <td class="action-td">
+                        <button class="action-btn-handeler">...</button>
+                        <div class="more-action-btns hidden">
+                          <ul>
+                            <li>
+                              <input type="text" class="copyText" value="Link Here"
+                                data-message="Copied coverage link to clipboard" />
+                              <button class="copyButton">
+                                <img src="images/copy-btn.svg" alt="" />Edit Info
+                              </button>
+                            </li>
+                            <li>
+                              <button class="downloadButton">
+                                <img src="images/download-btn.svg" alt="" />Delete User
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/gf/1.png" alt="" class="profile-img"></td>
+                      <td>Badhon Khan</td>
+                      <td>IT</td>
+                      <td>Scratch Designer</td>
+                      <td>2560</td>
+                      <td>badhon@gmail.com</td>
+                      <td>01987632145</td>
+                      <td>
+                        <a href="view_coverage.html" class="mention-btn tooltip-task"
+                          hoverover="View Profile"><img src="images/mention.svg" alt="" /></a>
+                      </td>
+                      <td class="action-td">
+                        <button class="action-btn-handeler">...</button>
+                        <div class="more-action-btns hidden">
+                          <ul>
+                            <li>
+                              <input type="text" class="copyText" value="Link Here"
+                                data-message="Copied coverage link to clipboard" />
+                              <button class="copyButton">
+                                <img src="images/copy-btn.svg" alt="" />Edit Info
+                              </button>
+                            </li>
+                            <li>
+                              <button class="downloadButton">
+                                <img src="images/download-btn.svg" alt="" />Delete User
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/gf/1.png" alt="" class="profile-img"></td>
+                      <td>Arefeen Rayeed</td>
+                      <td>IT </td>
+                      <td>Content Writer</td>
+                      <td>2750</td>
+                      <td>rayeed@gmail.com</td>
+                      <td>01578936541</td>
+                      <td>
+                        <a href="view_coverage.html" class="mention-btn tooltip-task"
+                          hoverover="View Profile"><img src="images/mention.svg" alt="" /></a>
+                      </td>
+                      <td class="action-td">
+                        <button class="action-btn-handeler">...</button>
+                        <div class="more-action-btns hidden">
+                          <ul>
+                            <li>
+                              <input type="text" class="copyText" value="Link Here"
+                                data-message="Copied coverage link to clipboard" />
+                              <button class="copyButton">
+                                <img src="images/copy-btn.svg" alt="" />Edit Info
+                              </button>
+                            </li>
+                            <li>
+                              <button class="downloadButton">
+                                <img src="images/download-btn.svg" alt="" />Delete User
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="table-wrapper table-responsive">
+                <p>Data Come's Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="popup-bg pop-1">
+    <div class="popup-wrapper">
+      <div class="pop-close"><img src="images/cross.png" alt="" /></div>
+      <div class="share-book-pop">
+        <h3>Add New User</h3>
+      </div>
+      <div class="user-register-from">
+        <form action="">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name"/>
+            </div>
+            <div class="col-md-6">
+              <label for="gf-id">GF ID No.</label>
+              <input type="text" name="gf-id" id="gf-id"/>
+            </div>
+            <div class="col-md-6">
+              <label for="depertment">Depertment</label>
+              <select name="depertment" id="depertment">
+                <option value="">Select--</option>
+                <option value="">Factory Management</option>
+                <option value="">Store</option>
+                <option value="">Marchendising</option>
+                <option value="">Sample</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="designation">Designation</label>
+              <select name="designation" id="designation">
+                <option value="">Select--</option>
+                <option value="">Super Admin</option>
+                <option value="">Admin</option>
+                <option value="">Marchendiser</option>
+                <option value="">Officer</option>
+                <option value="">Ass. Officer</option>
+                <option value="">Head of Depertment</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" id="phone"/>
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email</label>
+              <input type="email" name="" id=""/>
+            </div>
+            <div class="col-md-6">
+              <label for="">Image</label>
+              <input type="file" name="email" id="email"/>
+            </div>
+          </div>
+          <div class="text-right">
+            <button type="button" class="share-media-book-btn">
+              Register User
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="popup-bg pop-2">
+    <div class="popup-wrapper">
+      <div class="share-book-pop">
+        <h3>
+          Yay! Your Instagram Post Book (PDF) is being prepared and will be emailed
+          to your recipients shortly.
+        </h3>
+      </div>
+      <div class="confirm-msg-pop">
+        <span>We’ve emailed it to:</span>
+        <ul>
+          <li>ellen.warfield@marketview.online</li>
+          <li>daniel.dollow@marketview.online</li>
+          <li>info@marketview.online</li>
+        </ul>
+        <span>With title:</span>
+        <p>Alpha H Instagram Stories</p>
+        <span>With message:</span>
+        <p>
+          Hey Alpha-H, <br />
+          See attached for your breakdown of Instagram stories for the month.
+          Let me know if you have any questions!
+        </p>
+        <div class="text-right">
+          <button class="confirm-msg-pop-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--========================================================
+					End User Layout Area 
+	=========================================================-->
+
+  <!--Normalizer-->
+  <script type="text/javascript" src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <!--JQuery-->
+  <script type="text/javascript" src="js/vendor/jquery.js"></script>
+  <!--Plugins-->
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!--ALL RELATED PLUGINS-->
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  <!--Main Js-->
+  <script type="text/javascript" src="js/search-page-script.js"></script>
+  <script type="text/javascript" src="js/custom-calendar.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

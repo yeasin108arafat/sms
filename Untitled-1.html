@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Metas-->
+	<meta charset="utf-8">
+	<meta name="description" content="Website Description Come's Here">
+	<meta name="title" content="Title gose here">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Title-->
+	<title>
+		MVO | Results
+	</title>
+
+	<!--Favicon Icon-->
+	<link rel="Shortcut icon" type="images/png" href="images/favicon.png">
+
+	<!--StyleSheets-->
+	<!--Normalizer-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+	<!--Reset-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- flatpickr -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<!--Main Css's-->
+	<link rel="stylesheet" type="text/css" media="all" href="style.css">
+	<!--Responsive Css-->
+	<link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+
+</head>
+
+<body class="bg-gray">
+	<!--[if IE]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!--========================================================
+					Start User Layout Area 
+	=========================================================-->
+	<section class="dashboard-area">
+		<div class="dashboard content">
+			<div class="sidebar-area">
+				<div class="sidebar-top">
+					<img src="images/MVO-logo-nav-section.svg" alt="">
+					<ul>
+						<li><a href="home.html"><img src="images/home.svg" alt=""></a></li>
+						<li><a href="search.html" class="active"><img src="images/search.svg" alt=""></a></li>
+						<li><a href="results.html"><img src="images/results.svg" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="sidebar-bottom">
+					<ul>
+						<li>
+							<a href="#"><img src="images/logout.svg" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="dashboard-main-content-area result-page-wrap">
+				<div class="result-page-header">
+					<div class="result-page-header-left">
+						<b>MVO | Media Evaluation Portal</b>
+						<div class="text-right">
+							<a href="search.html" class="mobile-searching-button">
+								<img src="images/search-btn-img.svg" alt="" /> Search Here
+							</a>
+						</div>
+					</div>
+					<div class="result-page-header-right">
+						<div class="custom-search-wrapper">
+							<div class="search-fileds">
+								<div class="custom-select brand-select">
+									<div class="select-box">
+										<b>Brand</b>
+										<p>Choose a brand</p>
+									</div>
+									<div class="options-container">
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/tag.svg" alt="">
+											</div>
+											<div class="option">About Time We Met</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/tag.svg" alt="">
+											</div>
+											<div class="option">David Jones (Store)</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/tag.svg" alt="">
+											</div>
+											<div class="option">Dune London (Fashion)</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/tag.svg" alt="">
+											</div>
+											<div class="option">Nine West (Fashion)</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/tag.svg" alt="">
+											</div>
+											<div class="option">Puma (Fashion)</div>
+										</div>
+									</div>
+								</div>
+								<div class="custom-select">
+									<div class="select-box">
+										<b>Country</b>
+										<p>Choose a country</p>
+									</div>
+									<div class="options-container">
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/australia.png" alt="">
+											</div>
+											<div class="option">Australia</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/new-zeland.png" alt="">
+											</div>
+											<div class="option">New Zealand</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/us.png" alt="">
+											</div>
+											<div class="option">United States</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/uk.png" alt="">
+											</div>
+											<div class="option">United Kingdom</div>
+										</div>
+										<div class="option-wrapper">
+											<div class="option-img">
+												<img src="images/flag/worldwide.png" alt="">
+											</div>
+											<div class="option">Global</div>
+										</div>
+									</div>
+								</div>
+								<div class="custom-select date-select">
+									<div class="select-box">
+										<b>Date Range</b>
+										<p>Choose a date</p>
+									</div>
+									<div class="options-container">
+										<div class="date-select-tab">
+											<ul class="nav nav-tabs" id="myTab" role="tablist">
+												<li class="nav-item" role="presentation">
+													<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+														data-bs-target="#home" type="button" role="tab"
+														aria-controls="home" aria-selected="true">Months</button>
+												</li>
+												<li class="nav-item" role="presentation">
+													<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+														data-bs-target="#profile" type="button" role="tab"
+														aria-controls="profile" aria-selected="false">Dates</button>
+												</li>
+												<li class="nav-item" role="presentation">
+													<button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+														data-bs-target="#contact" type="button" role="tab"
+														aria-controls="contact" aria-selected="false">Time
+														Period</button>
+												</li>
+											</ul>
+											<div class="tab-content date-select-tab-content" id="myTabContent">
+												<!-- SINGLE TAB  -->
+												<div class="tab-pane fade show active" id="home" role="tabpanel"
+													aria-labelledby="home-tab">
+													<div class="text-center">
+														<h3 class="title-h3">What month(s) would you like to see?</h3>
+													</div>
+
+													<div class="calender-carousel-wrapper">
+														<div class="owl-carousel calender-carousel">
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>February</b>
+																<span>2024</span>
+															</div>
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>March</b>
+																<span>2024</span>
+															</div>
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>April</b>
+																<span>2024</span>
+															</div>
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>May</b>
+																<span>2024</span>
+															</div>
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>June</b>
+																<span>2024</span>
+															</div>
+															<div class="item">
+																<img src="images/calender.svg" alt="">
+																<b>July</b>
+																<span>2024</span>
+															</div>
+														</div>
+														<!-- Custom Arrows -->
+														<div class="custom-nav">
+															<button class="owl-prev-custom"><img
+																	src="images/arrow-left.svg" alt=""></button>
+															<button class="owl-next-custom">
+																<img src="images/arrow-right.svg" alt="">
+															</button>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<div class="tab-pane fade" id="profile" role="tabpanel"
+												aria-labelledby="profile-tab">
+												<div class="text-center">
+													<h3 class="title-h3">What dates would you like to see?</h3>
+												</div>
+												<div class="update-calendar">
+													<div class="calendar-container">
+														<button id="prev" class="nav-button" disabled>&#8249;</button>
+														<div id="calendar"></div>
+														<button id="next" class="nav-button">&#8250;</button>
+													</div>
+
+													<div class="selected-dates">
+														<p>From Date: <span id="fromDate"></span></p>
+														<p>To Date: <span id="toDate"></span></p>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="contact" role="tabpanel"
+												aria-labelledby="contact-tab">
+												<div class="text-center">
+													<h3 class="title-h3">What time period would you like to see?</h3>
+												</div>
+												<div class="list-of-time-periods">
+													<ul>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 72 hours</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 7 days</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 30 days</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 60 days</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 90 days</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 6 months</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Year to Date</b>
+														</li>
+														<li>
+															<img src="images/time.svg" alt="">
+															<b>Last 12 months</b>
+														</li>
+													</ul>
+												</div>
+												<div class="time-from-to text-center">
+													<p><span>Mon, 12 Aug</span> to <span>Mon, 5 Aug</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-search-field no-side-border text-right">
+								<div class="search-btn">
+									<button><img src="images/search-btn-img.svg" alt=""></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="result-page-main-content result-page-modify-class">
+					<div>
+						<div class="result-page-controller-btns">
+							<ul>
+								<li><a href="results.html" class="active-page">All</a></li>
+								<li><a href="instagram_stories.html"><img src="images/tab-icon/1.svg" alt="">Instagram
+										Stories</a>
+								</li>
+								<li><a href="instagram_posts.html"><img src="images/tab-icon/2.svg" alt="">Instagram
+										Posts</a></li>
+								<li><a href="tiktok.html"><img src="images/tab-icon/3.svg" alt="">TikTok</a></li>
+								<li><a href="online_media.html"><img src="images/tab-icon/4.svg" alt="">Online Media</a>
+								</li>
+								<li><a href="print_media.html"><img src="images/tab-icon/5.svg" alt="">Print Media</a>
+								</li>
+							</ul>
+							<ul class="controller-right-btns">
+								<li><a href="view_coverage_all_media.html"><img src="images/media-book.svg" alt="">View
+										All
+										Media Book</a></li>
+								<li><button class="share-book-btn"><img src="images/share-book.svg" alt="">Share Media
+										Book</button></li>
+							</ul>
+						</div>
+
+						<div class="dashboard-media-reports">
+							<div class="single-report">
+								<img src="images/report-icon/1.svg" alt="" />
+								<p>Mentions</p>
+								<h3>144</h3>
+								<div class="tooltip-icon">
+									<img src="images/info.svg" alt="" />
+								</div>
+								<div class="tooltip-wrapper">
+									<div class="tooltip-inner-wrapper">
+										<div class="tooltip-content">
+											<h4>
+												<img src="images/report-icon/1.svg" alt="" />Mentions
+												Formula
+											</h4>
+											<p>
+												The total number of content generated across online,
+												social or print media.
+											</p>
+											<p>
+												<b>All Media = </b>Some of all the medias total
+												mentions.
+											</p>
+											<p>
+												<b>Instagram Stories = </b>The total number of IG story
+												frames posted tagging your brand by our MVO influencers.
+											</p>
+											<p>
+												<b>Instagram Posts = </b>The total number of IG posts
+												generated tagging your brand by our MVO influencers.
+											</p>
+											<p>
+												<b>TikTok = </b>The total number of TikToks generated
+												tagging your brand by our MVO TikTokers.
+											</p>
+											<p>
+												<b>Online Media = </b>Total number of articles tracked
+												mentioning your brand across news sites and blogs.
+											</p>
+											<p>
+												<b>Print Media = </b>The total number of brand/product
+												mentions in print media.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-report">
+								<img src="images/report-icon/2.svg" alt="" />
+								<p>Contributors</p>
+								<h3>83</h3>
+								<div class="tooltip-icon">
+									<img src="images/info.svg" alt="" />
+								</div>
+								<div class="tooltip-wrapper">
+									<div class="tooltip-inner-wrapper">
+										<div class="tooltip-content">
+											<h4>
+												<img src="images/report-icon/2.svg" alt="" />Contributors Formula
+											</h4>
+											<p>
+												The total number of authors generating content across
+												any media.
+											</p>
+											<p>
+												<b>All Media = </b>Sum of all the medias contributors.
+											</p>
+											<p>
+												<b>Instagram Stories = </b>The total number of IG story
+												authors mentioning your brand.
+											</p>
+											<p>
+												<b>Instagram Posts = </b>The total number of IG posts
+												authors mentioning your brand.
+											</p>
+											<p>
+												<b>TikTok = </b>The total number of TikTokers tagging
+												your brand.
+											</p>
+											<p>
+												<b>Online Media = </b>Total number of online
+												publications mentioning your brand.
+											</p>
+											<p>
+												<b>Print Media = </b>The total number of print
+												publications mentioning your brand.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-report">
+								<img src="images/report-icon/3.svg" alt="" />
+								<p>Reach</p>
+								<h3>17.3M</h3>
+								<div class="tooltip-icon">
+									<img src="images/info.svg" alt="" />
+								</div>
+								<div class="tooltip-wrapper">
+									<div class="tooltip-inner-wrapper">
+										<div class="tooltip-content">
+											<h4>
+												<img src="images/report-icon/3.svg" alt="" />Reach
+												Formula
+											</h4>
+											<p>
+												The estimated number of unique people your content could
+												have reached.
+											</p>
+											<p><b>All Media = </b>Sum of all the medias reach</p>
+											<p><b>Instagram Stories = </b>Followers</p>
+											<p><b>Instagram Posts = </b>Followers</p>
+											<p><b>TikTok = </b>Views</p>
+											<p><b>Online Media = </b>Unique Monthly Visitors</p>
+											<p><b>Print Media = </b>Readership</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-report">
+								<img src="images/report-icon/4.svg" alt="" />
+								<p>Impressions</p>
+								<h3>31.5M</h3>
+								<div class="tooltip-icon">
+									<img src="images/info.svg" alt="" />
+								</div>
+								<div class="tooltip-wrapper">
+									<div class="tooltip-inner-wrapper">
+										<div class="tooltip-content">
+											<h4>
+												<img src="images/report-icon/4.svg" alt="" />Impressions
+												Formula
+											</h4>
+											<p>
+												The number of times a given mention could be viewed.
+											</p>
+											<p>
+												<b>All Media = </b>Sum of all the medias impressions
+											</p>
+											<p>
+												<b>Instagram Stories = </b>Number of mentions x
+												Followers
+											</p>
+											<p>
+												<b>Instagram Posts = </b>Number of mentions x Followers
+											</p>
+											<p><b>TikTok = </b>Total Views</p>
+											<p>
+												<b>Online Media = </b>Number of mentions x Unique
+												monthly visitors
+											</p>
+											<p>
+												<b>Print Media = </b>Number of mentions x Readership
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-report">
+								<img src="images/report-icon/5.svg" alt="" />
+								<p>PR Value</p>
+								<h3>$1.3M</h3>
+								<div class="tooltip-icon">
+									<img src="images/info.svg" alt="" />
+								</div>
+								<div class="tooltip-wrapper">
+									<div class="tooltip-inner-wrapper">
+										<div class="tooltip-content">
+											<h4>
+												<img src="images/report-icon/5.svg" alt="" />PR Value
+												Formula
+											</h4>
+											<p>
+												Using a multiple to calculate the added value of
+												generating editorial style coverage over standard
+												advertisements. PR Value = 3 x Ad Value
+											</p>
+											<p><b>All Media = </b>Sum of all the medias PR values.</p>
+											<p>
+												<b>Instagram Stories = </b>Ad value based on their
+												<u>Followers</u> using a CPM of $20.
+											</p>
+											<p>
+												<b>Instagram Posts = </b>Ad value based on the account’s
+												<u>Followers</u> using a CPM of $20.
+											</p>
+											<p>
+												<b>TikTok = </b>Ad value based on the video’s
+												<u>Views</u> using a CPM of $40.
+											</p>
+											<p>
+												<b>Online Media = </b>Ad value based on the site’s
+												<u>Unique monthly visitors</u> using a CPM of $10.
+											</p>
+											<p>
+												<b>Print Media = </b>Ad value based on the
+												<u>Size of the mention</u> using the publication’s full
+												page rate.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-table-content-wrapper mt-3">
+						<h4>Media Distribution</h4>
+						<div class="table-wrapper table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>MEDIA</th>
+										<th>MENTIONS</th>
+										<th>REACH</th>
+										<th>PR VALUE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/icn/11.svg" alt="">Instagram Stories</td>
+										<td><b>40</b> <span>(40%)</span></td>
+										<td><b>60</b> <span>(60%)</span></td>
+										<td><b>$100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/9.svg" alt="">Instagram Posts</td>
+										<td><b>20</b> <span>(40%)</span></td>
+										<td><b>80</b> <span>(80%)</span></td>
+										<td><b>$100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/10.svg" alt="">Tiktok</td>
+										<td><b>20</b> <span>(40%)</span></td>
+										<td><b>80</b> <span>(80%)</span></td>
+										<td><b>$100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/8.svg" alt="">Online Media</td>
+										<td><b>20</b> <span>(40%)</span></td>
+										<td><b>80</b> <span>(80%)</span></td>
+										<td><b>$100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/1.svg" alt="">Print Media</td>
+										<td><b>40</b> <span>(40%)</span></td>
+										<td><b>60</b> <span>(60%)</span></td>
+										<td><b>$100</b></td>
+									</tr>
+									<tr>
+										<td><img src="" alt=""></td>
+										<td><span>87</span></td>
+										<td><span>213</span></td>
+										<td><span>$300</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="page-table-content-wrapper mt-3 org-table">
+						<h4>Sponsored vs Organic Distribution</h4>
+						<div class="table-wrapper table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>MEDIA</th>
+										<th>
+											SPONSORED COVERAGE
+											<div class="tooltip-icon">
+												<img src="images/info.svg" alt="">
+											</div>
+											<div class="tooltip-wrapper">
+												<div class="tooltip-inner-wrapper">
+													<div class="tooltip-content">
+														<h4>Sponsored Coverage</h4>
+														<p>Social coverage that contains the below terms, is labelled as sponsored coverage.</p>
+														<ul>
+															<li>ad OR advert OR advertisement</li>
+															<li>brandedcontent</li>
+															<li>gifted</li>
+															<li>#paid</li>
+															<li>paid partnership OR paidpartnership</li>
+															<li>spon OR sponsored</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th>
+											ORGANIC COVERAGE
+											
+											<div class="tooltip-icon">
+												<img src="images/info.svg" alt="">
+											</div>
+											<div class="tooltip-wrapper">
+												<div class="tooltip-inner-wrapper">
+													<div class="tooltip-content">
+														<h4>Organic Coverage</h4>
+														<p>Social coverage that <b><u>DOES NOT</u></b> contain the below terms, is labelled as organic coverage.</p>
+														<ul>
+															<li>ad OR advert OR advertisement</li>
+															<li>brandedcontent</li>
+															<li>gifted</li>
+															<li>#paid</li>
+															<li>paid partnership OR paidpartnership</li>
+															<li>spon OR sponsored</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</th>
+										<th>TOTAL COVERAGE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/icn/11.svg" alt="">Instagram Stories</td>
+										<td><b>40</b> <span>(40%)</span></td>
+										<td><b>60</b> <span>(60%)</span></td>
+										<td><b>100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/9.svg" alt="">Instagram Posts</td>
+										<td><b>20</b> <span>(40%)</span></td>
+										<td><b>80</b> <span>(80%)</span></td>
+										<td><b>100</b></td>
+									</tr>
+									<tr>
+										<td><img src="images/icn/10.svg" alt="">Tiktok</td>
+										<td><b>20</b> <span>(40%)</span></td>
+										<td><b>80</b> <span>(80%)</span></td>
+										<td><b>100</b></td>
+									</tr>
+									<tr>
+										<td><img src="" alt=""></td>
+										<td><span>87</span></td>
+										<td><span>213</span></td>
+										<td><span>300</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<div class="popup-bg pop-1">
+		<div class="popup-wrapper">
+			<div class="pop-close"><img src="images/cross.png" alt=""></div>
+			<div class="share-book-pop">
+				<h3>Share Media Book (PDF)</h3>
+				<span>Alpha H | Australia | This Year | All Media</span>
+				<p>Share this media book with yourself or others by adding their email addresses below. You can also add
+					an optional title and message. We'll send a copy directly to the recipent’s inbox.</p>
+			</div>
+			<form action="">
+				<input type="email" name="" id="" placeholder="Email To*">
+				<input type="text" name="" id="" placeholder="Title">
+				<textarea name="" id="" placeholder="Message"></textarea>
+				<div class="text-right">
+					<button type="button" class="share-media-book-btn">Share Media Book</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="popup-bg pop-2">
+		<div class="popup-wrapper">
+			<div class="share-book-pop">
+				<h3>Yay! Your All Media Book (PDF) is being prepared and will be emailed to your recipients shortly.
+				</h3>
+			</div>
+			<div class="confirm-msg-pop">
+				<span>We’ve emailed it to:</span>
+				<ul>
+					<li>ellen.warfield@marketview.online</li>
+					<li>daniel.dollow@marketview.online</li>
+					<li>info@marketview.online</li>
+				</ul>
+				<span>With title:</span>
+				<p>Alpha H Instagram Stories</p>
+				<span>With message:</span>
+				<p>Hey Alpha-H, <br>
+					See attached for your breakdown of Instagram stories for the month. Let me know if you have any
+					questions! </p>
+				<div class="text-right">
+					<button class="confirm-msg-pop-close">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--========================================================
+					End User Layout Area 
+	=========================================================-->
+
+	<!--Normalizer-->
+	<script type="text/javascript" src="js/vendor/modernizr-3.7.1.min.js"></script>
+	<!--JQuery-->
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<!--Plugins-->
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+	<!--ALL RELATED PLUGINS-->
+	<!--Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+	</script>
+	<!--Main Js-->
+	<script type="text/javascript" src="js/search-page-script.js"></script>
+	<script type="text/javascript" src="js/custom-calendar.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
